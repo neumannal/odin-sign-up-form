@@ -1,6 +1,12 @@
 /* CSS reset/normalization as described by https://mattbrictson.com/blog/css-normalize-and-reset */
 @import 'node_modules/modern-normalize/modern-normalize.css';
 
+/* Import norse font */
+@font-face {
+    font-family: norse;
+    src: url(assets/Norse-Bold.otf);
+}
+
 :root {
     line-height: 1.5;
 }
@@ -50,10 +56,11 @@ body {
 .odin {
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     height: 150px;
     width: 100%;
     justify-content: center;
+    font-family: "norse";
 }
 
 .odin img {
@@ -63,5 +70,6 @@ body {
 }
 
 .odin p {
-    font-size: 72px;
+    margin-top: 12px; /* The font seems weird as it is not aligned by default (others are) - margin-top is a quick fix  */
+    font-size: 96px;
 }
