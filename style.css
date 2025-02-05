@@ -40,7 +40,6 @@ body {
 .sidebar, .content {
     height: 100vh;
     display: flex;
-    align-items: center;
     flex-flow: column;
 }
 
@@ -97,6 +96,19 @@ h1 {
     background-color: white;
 }
 
-button-div {
+.submit-btn {
+    color: white;
+    background-color: #596D48;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 36px;
+    cursor: pointer;
+    margin: 16px 0;
+}
 
+.bottom-text a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
