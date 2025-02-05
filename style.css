@@ -96,6 +96,37 @@ h1 {
     background-color: white;
 }
 
+form {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    gap: 12px 48px;
+}
+
+div .input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: rgb(137, 137, 137);
+}
+
+input {
+    width: 250px;
+    box-sizing: border-box;
+}
+
+input {
+    font-size: 16px;
+}
+
 .submit-btn {
     color: white;
     background-color: #596D48;
